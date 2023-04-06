@@ -125,7 +125,9 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
-
+.whitespace {
+  padding-right: 6px;
+}
 blockquote,
 q {
   -webkit-hyphens: none;
