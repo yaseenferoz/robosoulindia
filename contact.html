@@ -437,18 +437,7 @@
 
     <!-- Modernizer JS -->
     <script>
-        document.querySelector("form").addEventListener("submit", handleSubmit);
-        var status = document.getElementById('button-status');
-        var button_en = document.getElementById('button-en');
-        function submiitedForm(){
-            button_en.style = "display: none ";
-            status.innerHTML = '<span style="font-size:20px; color:blue"> Successfully sent to Robsoul India.! We will get back to you </span>';
-        }
-        function unSubmiitedForm() {
-            button_en.style = "display: none ";
-            status.innerHTML = '<span style="font-size:20px; color:red"> Form was not submitted can you please try after sometime </span>';
-        }
-        const handleSubmit = (event) => {
+                const handleSubmit = (event) => {
             event.preventDefault();
 
   const myForm = event.target;
@@ -460,6 +449,18 @@
     body: new URLSearchParams(formData).toString(),
   }).then(() => submiitedForm()).catch((error) => unSubmiitedForm());
 };
+
+        document.querySelector("form").addEventListener("submit", handleSubmit);
+        var status = document.getElementById('button-status');
+        var button_en = document.getElementById('button-en');
+        function submiitedForm(){
+            button_en.style = "display: none ";
+            status.innerHTML = '<span style="font-size:20px; color:blue"> Successfully sent to Robsoul India.! We will get back to you </span>';
+        }
+        function unSubmiitedForm() {
+            button_en.style = "display: none ";
+            status.innerHTML = '<span style="font-size:20px; color:red"> Form was not submitted can you please try after sometime </span>';
+        }
 
 
 
