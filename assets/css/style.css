@@ -18301,7 +18301,6 @@ Breadcrumb Styles
   position: relative;
   padding-right: 118px;
   z-index: 3;
-  left: 174px;
   -webkit-transform: perspective(500px) rotateY(-5deg);
   transform: perspective(500px) rotateY(-5deg);
   display: inline-block;
