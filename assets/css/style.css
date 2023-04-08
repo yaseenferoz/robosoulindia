@@ -14112,8 +14112,7 @@ Contact Form Style
   padding: 50px 50px;
   position: relative;
   position: relative;
-  z-index: 2;
-  max-width: 450px;
+  max-width:100%;
 }
 
 @media only screen and (max-width: 767px) {
