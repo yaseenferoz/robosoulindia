@@ -14157,7 +14157,14 @@ Contact Form Style
 }
 
 @media only screen and (max-width: 767px) {
-
+  .rsoul-address::before {
+    position: relative;
+    z-index: auto;
+  }
+  .rsoul-address::after {
+    z-index: auto;
+    position: relative;
+  }
 }
 
 .rsoul-address .inner .icon {
