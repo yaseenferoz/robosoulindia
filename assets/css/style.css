@@ -14111,7 +14111,7 @@ Contact Form Style
 .rsoul-address {
   padding: 50px 50px;
   position: relative;
-  position: relative;
+
   max-width:100%;
 }
 
@@ -14157,9 +14157,7 @@ Contact Form Style
 }
 
 @media only screen and (max-width: 767px) {
-  .rsoul-address::before {
-    display: none;
-  }
+
 }
 
 .rsoul-address .inner .icon {
