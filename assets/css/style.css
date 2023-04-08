@@ -18250,9 +18250,6 @@ Breadcrumb Styles
 .rsoul-breadcrumb-area.breadcrumb-style-2 ul.rs-breadcrumb li:last-child::after {
   display: none;
 }
-.team-pic {
-  height: 260px !important;
-}
 
 .rsoul-breadcrumb-area.breadcrumb-style-2 h2.title {
   font-size: 56px;
