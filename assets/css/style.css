@@ -14160,10 +14160,28 @@ Contact Form Style
   .rsoul-address::before {
     position: relative;
     z-index: auto;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    bottom: 0px;
+    transform-style: unset;
+  -webkit-transform:none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
   }
   .rsoul-address::after {
     z-index: auto;
     position: relative;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    transform-style: unset;
+    -webkit-transform:none;
+    transform: none;
+    -webkit-filter: none;
+    filter: none;
   }
 }
 
