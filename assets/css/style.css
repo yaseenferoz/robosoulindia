@@ -5694,13 +5694,17 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #scrollUp {
-    right: 30px;
+    right: 0px;
+    z-index: auto !important;
+    font-size: 10px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   #scrollUp {
-    right: 30px;
+    right: 0px;
+    z-index: auto !important;
+    font-size: 10px;
   }
 }
 
@@ -14160,7 +14164,7 @@ Contact Form Style
   .rsoul-address::before {
     position: relative;
     z-index: auto;
-    width: 100%;
+    width: 200%;
     height: 100%;
     left: 0px;
     bottom: 0px;
@@ -14173,7 +14177,7 @@ Contact Form Style
   .rsoul-address::after {
     z-index: auto;
     position: relative;
-    width: 100%;
+    width: 200%;
     left: 0px;
     bottom: 0px;
     height: 100%;
