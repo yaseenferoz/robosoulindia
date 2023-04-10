@@ -11337,6 +11337,9 @@ ul.mainmenu li a {
   line-height: 22px;
   text-decoration: none;
 }
+ul.mainmenu li a.active {
+color: #702FFF;
+}
 
 ul.mainmenu li.has-dropdown ul.rsoul-submenu {
   position: absolute;
@@ -11371,6 +11374,9 @@ ul.mainmenu li.has-dropdown ul.rsoul-submenu li a {
   font-size: 15px;
   line-height: 31px;
   display: block;
+}
+ul.mainmenu li.has-dropdown ul.rsoul-submenu li a.active {
+  color: #702FFF;
 }
 
 ul.mainmenu li.has-dropdown ul.rsoul-submenu li a:hover {
@@ -12206,6 +12212,10 @@ ul.mainmenu li.has-dropdown.active ul.rsoul-submenu.visible {
   color: #fff;
 }
 
+.popup-mobile-manu .inner .menu-item ul.mainmenu-item li a.active {
+color: #702FFF;
+}
+
 .popup-mobile-manu .inner .menu-item ul.mainmenu-item li:first-child {
   border: 0 none;
 }
@@ -12269,6 +12279,9 @@ ul.mainmenu li.has-dropdown.active ul.rsoul-submenu.visible {
   padding-bottom: 8px;
   font-size: 15px;
   color: #fff;
+}
+.popup-mobile-manu .inner .menu-item ul.mainmenu-item li.has-children ul.submenu li a.active {
+  color: #702FFF;
 }
 
 /**************************************
